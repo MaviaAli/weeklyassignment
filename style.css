@@ -1,0 +1,62 @@
+#main-doc{
+    /* font-family: arial, gill sans,sans-serif; */
+    font-family: "Lato",;
+    margin: 0px auto;
+    font-size: 17px;
+}
+
+
+#navbar{
+    position: fixed;
+    width:22%;
+    border-right: 2px solid #6d707c;
+    left: 0;
+    top:0;
+}
+
+#navbar header h1{
+    padding: 4px 8px 10px 16px;
+    border-bottom: 1px solid #47494e;
+    display: block;
+    margin: 8px auto;
+}
+    /* The navigation menu links */
+#navbar a {
+    padding: 8px 8px 8px 16px;
+    border-bottom: 1px solid #5E5F63;
+    text-decoration: none;
+    font-size: 16px;
+    color: #818181;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+#navbar a:hover {
+    color: #064579;
+  }
+
+.main-section{
+    float: right;
+    width: 75%;
+    color:#646569;
+}
+.main-section header h1 {
+    color:black;
+}
+
+.main-section p{
+    padding: 0 20px;
+}
+ul li{
+    padding: 8px;
+}
+.code{
+    position: relative;
+    background-color:rgb(233, 227, 227);
+    font-size: 14px;
+    padding: 10px 0px 0px 0px;
+    margin: 30px;
+    border-radius: 4px;
+}
+
+/* font-family: Consolas,"Courier New", Courier,monospace; */
